@@ -1,0 +1,17 @@
+color_blue = #0074d9
+
+@keyframes animationPlugin
+	0%
+		color color_blue
+	50%
+		color #f012be
+	100%
+		color color_blue
+
+.my-plugin
+	color color_blue
+	font-size 30px
+	font-weight 700
+	transition color .25s ease-in-out
+	&--animate
+		animation animationPlugin 3s infinite alternate

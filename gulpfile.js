@@ -30,7 +30,7 @@ gulp.task('serve', function (){
 gulp.task('html', function() {
 	return gulp.src('./src/pug/*.pug')
 		.pipe(plumber())
-		.pipe(pug({ data: { plugin: 'plugin' }, pretty: '\t' }))
+		.pipe(pug({ data: { plugin: plugin }, pretty: '\t' }))
 		.pipe(htmlhint('./.htmlhintrc'))
 		.pipe(htmlmin({ collapseWhitespace: true }))
 		.pipe(htmlhint.reporter())

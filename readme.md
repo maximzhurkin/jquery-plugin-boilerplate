@@ -17,11 +17,12 @@ Boilerplate for jquery plugin with gulp coffee/stylus/pug
 	```
 4) Comment dist/ & docs/ folders in .gitignore
 5) Set name plugin in gulpfile.js (line 2)
-6) Rename src/coffee/jquery.plugin.coffee where 'plugin' is name of plugin
-7) Rename src/stylus/jquery.plugin.styl where 'plugin' is name of plugin
-8) Run build
+6) Change 'myPlugin' to plugin name in jquery.plugin.coffee (line 22)
+7) Rename src/coffee/jquery.plugin.coffee where 'plugin' is name of plugin
+8) Rename src/stylus/jquery.plugin.styl where 'plugin' is name of plugin
+9) Run build
 	```sh
 	gulp
 	```
-9) Remove this readme & rename plugin.md to readme.md
-10) Change content readme.md
+10) Remove this readme & rename plugin.md to readme.md
+11) Change content readme.md
